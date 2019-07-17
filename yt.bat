@@ -14,17 +14,17 @@ echo.
 
 set /p input=Option:
 
-if %input% equ 1(
+IF %input% == 1(
     set /p link=Youtube Link:
     youtube-dl.exe -x --audio-format mp3 --audio-quality 0 "%link%"
     goto :start
 )
 
-if %input% equ 2(
+IF %input% EQU 2(
     set /p link=Youtube Link:
     youtube-dl "%link%" 
     goto :start
-)else(
+)ELSE(
     echo "Invalid input!"
     goto :start
 )
