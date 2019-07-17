@@ -18,16 +18,16 @@ IF %input% == 1(
     echo hallo
     set /p link=Youtube Link:
     youtube-dl.exe -x --audio-format mp3 --audio-quality 0 "%link%"
-    goto :start
+    goto start
 )
 
 IF %input% EQU 2(
     set /p link=Youtube Link:
     youtube-dl "%link%" 
-    goto :start
+    goto start
 )ELSE(
     echo "Invalid input!"
-    goto :start
+    goto start
 )
 
 pause > nul
