@@ -9,7 +9,7 @@ echo ###########################
 echo.
 echo.
 echo 1. Download video and convert it to mp3.
-echo 2. Download video as mp4.
+echo 2. Download video.
 echo.
 
 set /p test=Option:
