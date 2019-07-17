@@ -14,7 +14,7 @@ echo 3. Close.
 echo.
 
 set /p input=Option:
-echo %input%
+
 IF %input% EQU 1 goto option_1
 
 IF %input% EQU 2 goto option_2
