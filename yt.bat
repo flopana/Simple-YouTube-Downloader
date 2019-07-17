@@ -10,9 +10,10 @@ echo.
 echo.
 echo 1. Download video and convert it to mp3.
 echo 2. Download video as mp4.
-
+echo.
 
 set /p input=Option:
+
 if %input% equ 1(
     set /p link=Youtube Link:
     youtube-dl.exe -x --audio-format mp3 --audio-quality 0 "%link%"
