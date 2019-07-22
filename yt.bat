@@ -25,12 +25,16 @@ goto start
 
 :option_1
 set /p link=Youtube Link:
-youtube-dl.exe -x --audio-format mp3 --audio-quality 0 "%link%"
-goto start
+youtube-dl -x --audio-format mp3 --audio-quality 0 "%link%" -o "%%(title)s.%%(ext)s"
+echo.
+echo You can enter a new yotube link below:
+goto option_1
 
 :option_2
+echo.
+echo You can enter a new yotube link below:
 set /p link=Youtube Link:
-youtube-dl "%link%" 
-goto start
+youtube-dl "%link%" -o "%%(title)s.%%(ext)s"
+goto option_2
 
 pause > nul
