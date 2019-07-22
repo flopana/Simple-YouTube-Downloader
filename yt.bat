@@ -25,12 +25,12 @@ goto start
 
 :option_1
 set /p link=Youtube Link:
-youtube-dl.exe -x --audio-format mp3 --audio-quality 0 "%link%"
+youtube-dl -x --audio-format mp3 --audio-quality 0 "%link%" -o "%%(title)s.%%(ext)s"
 goto start
 
 :option_2
 set /p link=Youtube Link:
-youtube-dl "%link%" 
+youtube-dl "%link%" -o "%%(title)s.%%(ext)s"
 goto start
 
 pause > nul
