@@ -31,10 +31,10 @@ echo You can enter a new yotube link below:
 goto option_1
 
 :option_2
-echo.
-echo You can enter a new yotube link below:
 set /p link=Youtube Link:
 youtube-dl "%link%" -o "%%(title)s.%%(ext)s"
+echo.
+echo You can enter a new yotube link below:
 goto option_2
 
 pause > nul
