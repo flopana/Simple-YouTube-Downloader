@@ -11,7 +11,8 @@ After starting the **yt.bat** you will be prompted with following Menu:
 ![alt Menu](https://i.imgur.com/21KUCbg.png)
 
 To choose an option just type in of the Numbers and press enter.
-After that you will be asked to provide a YouTube link which can simply be pasted from your clipboard by RightClicking into the Terminal.
+After that you will be asked to provide a YouTube link which can simply be pasted 
+from your clipboard by RightClicking into the Terminal.
 
 If no errors occur you will see something like this:
 
