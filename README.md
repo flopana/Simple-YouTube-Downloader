@@ -19,4 +19,5 @@ If no errors occur you will see something like this:
 ![enter Downloading process](https://i.imgur.com/JNRRmzW.png)
 
 As you can see you will also be able to provide another Link.
+
 **Note: You can also paste whole YouTube playlists they will be automatically downloaded.**
