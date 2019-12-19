@@ -5,6 +5,7 @@ Title flopana's yt downloader
 echo.
 echo ###########################
 echo # flopana's yt downloader #
+echo # Version Cool            #
 echo ###########################
 echo.
 echo.
