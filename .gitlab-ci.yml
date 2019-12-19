@@ -1,7 +1,0 @@
-image: "mcr.microsoft.com/dotnet/core/runtime:3.0"
-
-test:
-    - yt.bat
-
-download:
-    - 3
