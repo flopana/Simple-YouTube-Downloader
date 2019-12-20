@@ -7,9 +7,9 @@ build:
   image: microsoft-windows-base-os-images
   script:
     - echo "Testing the Batch file by Downloading a song."
-    - yt.bat
-    - 1
-    - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+    - "yt.bat"
+    - "1"
+    - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   artifacts:
     - Rick Astley - Never Gonna Give You Up (Video)
 
