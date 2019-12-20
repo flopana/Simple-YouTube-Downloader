@@ -4,7 +4,7 @@ stages:
 
 build:
   stage: build
-  image: microsoft-windows-base-os-images
+  image: mcr.microsoft.com/windows/servercore:ltsc2019
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "yt.bat"
