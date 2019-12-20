@@ -4,7 +4,7 @@ stages:
 
 build:
   stage: build
-  image: mcr.microsoft.com/windows/servercore
+  image: mcr.microsoft.com/dotnet/core/runtime:3.1
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "yt.bat"
