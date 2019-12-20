@@ -4,8 +4,6 @@ stages:
 create_badge_svg:
   stage: build
   image: python:3.6.6
-  tags:
-    - docker
   script:
     - echo "Python other dependencies installation"
   after_script:
