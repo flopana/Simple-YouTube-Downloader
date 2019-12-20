@@ -4,11 +4,11 @@ stages:
 
 build:
   stage: build
-  image: mcr.microsoft.com/dotnet/core/runtime:3.1
+  image: scottyhardy/docker-wine
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
-    - "./yt.bat"
+    - "wine yt.bat"
     - "1"
     - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   artifacts:
