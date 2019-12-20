@@ -8,6 +8,7 @@ build:
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
+    - "apt update"
     - "apt install wine -y"
     - "wine yt.bat"
     - "1"
