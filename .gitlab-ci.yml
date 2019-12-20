@@ -9,8 +9,8 @@ build:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
     - "apt update"
-    - "apt install wine -y"
-    - "wine yt.bat"
+    - "apt install wine64 -y"
+    - "wine cmd yt.bat"
     - "1"
     - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   artifacts:
