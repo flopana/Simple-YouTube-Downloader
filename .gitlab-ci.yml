@@ -8,7 +8,7 @@ build:
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
-    - "cmd yt.bat"
+    - "cmd /Q /C yt.bat"
     - "1"
     - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   artifacts:
