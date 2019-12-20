@@ -9,7 +9,7 @@ build:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
     - "apt update"
-    - "apt install wine64 -y"
+    - "dpkg --add-architecture i386 && apt-get update && apt-get install wine32"
     - "wine cmd yt.bat"
     - "1"
     - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
