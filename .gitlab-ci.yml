@@ -1,22 +1,22 @@
 stages:
-    - build
+    # - build
     - badge
 
-build:
-  stage: build
-  image: debian
-  script:
-    - echo "Testing the Batch file by Downloading a song."
-    - "ls -al"
-    - "apt update"
-    - "dpkg --add-architecture i386 && apt-get update && apt-get install wine32 -y"
-    - "wine cmd"
-    - "yt.bat"
-    - "1"
-    - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  artifacts:
-    paths:
-      - Rick Astley - Never Gonna Give You Up (Video)
+# build:
+#   stage: build
+#   image: debian
+#   script:
+#     - echo "Testing the Batch file by Downloading a song."
+#     - "ls -al"
+#     - "apt update"
+#     - "dpkg --add-architecture i386 && apt-get update && apt-get install wine32 -y"
+#     - "wine cmd"
+#     - "yt.bat"
+#     - "1"
+#     - "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+#   artifacts:
+#     paths:
+#       - Rick Astley - Never Gonna Give You Up (Video)
 
 create_badge_svg:
   stage: badge
