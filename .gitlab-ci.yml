@@ -14,4 +14,4 @@ create_badge_svg:
     paths:
         - commits.svg
     when: always
-    expire_in: 4 weeks
+    expire_in: 16 weeks
