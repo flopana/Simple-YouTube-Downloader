@@ -4,7 +4,7 @@ stages:
 
 build:
   stage: build
-  image: scottyhardy/docker-wine
+  image: debian
   script:
     - echo "Testing the Batch file by Downloading a song."
     - "ls -al"
