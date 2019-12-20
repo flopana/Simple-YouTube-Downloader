@@ -1,8 +1,20 @@
 stages:
     - build
+    - badge
+
+build:
+  stage: build
+  image: microsoft-windows-base-os-images
+  script:
+    - echo "Testing the Batch file by Downloading a song."
+    - yt.bat
+    - 1
+    - https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  artifacts:
+    - Rick Astley - Never Gonna Give You Up (Video)
 
 create_badge_svg:
-  stage: build
+  stage: badge
   image: python:3.6.6
   script:
     - echo "Python other dependencies installation"
