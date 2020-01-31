@@ -3,9 +3,11 @@ Title flopana's yt downloader
 :start
 
 echo.
-echo ###########################
-echo # flopana's yt downloader #
-echo ###########################
+echo ####################################################################################
+echo # flopana's yt downloader                                                          #
+echo # Version: 1.1.4                                                                   #
+echo # Be sure to check: https://gitlab.aptinstall.de/flopana/Simple-YouTube-Downloader #
+echo ####################################################################################
 echo.
 echo.
 echo 1. Download video and convert it to mp3.
