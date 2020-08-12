@@ -5,7 +5,7 @@ Title flopana's yt downloader
 echo.
 echo ####################################################################################
 echo # flopana's yt downloader                                                          #
-echo # Version: 1.1.7                                                                   #
+echo # Version: 1.2                                                                   #
 echo # Be sure to check: https://gitlab.aptinstall.de/flopana/Simple-YouTube-Downloader #
 echo ####################################################################################
 echo.
