@@ -27,14 +27,14 @@ goto start
 
 :option_1
 set /p link=Youtube Link:
-youtube-dl -x --audio-format mp3 --audio-quality 0 "%link%" -o "%%(title)s.%%(ext)s"
+youtube-dl -i -x --audio-format mp3 --audio-quality 0 "%link%" -o "audio/%%(title)s.%%(ext)s" :: some comment
 echo.
 echo You can enter a new yotube link below:
 goto option_1
 
 :option_2
 set /p link=Youtube Link:
-youtube-dl "%link%" -o "%%(title)s.%%(ext)s"
+youtube-dl -i --recode-video mp4 "%link%" -o "video/%%(title)s.%%(ext)s" :: some comment
 echo.
 echo You can enter a new yotube link below:
 goto option_2
